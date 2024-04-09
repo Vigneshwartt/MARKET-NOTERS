@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.form-input{
+    @apply bg-gray-200 rounded  mt-2 outline-none;
+}

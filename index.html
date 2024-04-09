@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="./assests/css/output.css">
+
+  </head>
+  <body class="space-x-96 bg-violet-800">
+    <!-- <h1  class=" p-40 font-bold ">Fuel Cost Calculator</h1> -->
+   <section class=" p-20">
+      <div class="bg-yellow-300 max-w-xs sm:max-w-lg rounded  mx-auto p-4">
+        <div class="flex items-center justify-between">
+           <h1 class="font-bold text-blue-700">Todo-List</h1>
+        </div>
+        <form class="mt-4 space-y-4">
+          <div>
+            <label for="todoslist" class="form-label px-2">Enter the items</label>
+            <input type="text" id="input" placeholder="Type" class="form-input rounded px-2"  required>
+          </div>
+        
+          <div>
+            <button type="click" id="btn" class=" ml-32 bg-red-500 text-white w-24 rounded font-medium ">ADD</button>
+          </div>
+          <div id="result" class="text-black font-semibold">
+            </div>
+  
+        </form>
+      </div>
+      <div class="bg-gray-300 max-w-xs sm:max-w-lg rounded mt-10 mx-auto p-4">
+        <div class="flex items-center justify-between">
+           <h1 class="font-bold text-red-900">Notes</h1>
+        </div>
+        <div>
+          1-You can add your items 
+          <br>
+          2-If you click one time in the items means It will be shown as green colors
+          <br>
+          3-If you double click the item means it will delete it automatically
+        </div>
+        
+      </div>
+      <script src="./assests/js/main.js"></script>
+    </section>
+  </body>
+</html>
